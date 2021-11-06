@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.head {
+	width: 100%;
+	height: 80px;
+	background: blue;
+
+}
+
+
+
+.main {
+	width: 100%;
+	min-height: 500px;
+	background: gray;
+}
+nav {
+	float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin-left: 10px; 
+}
+nav a {
+	text-decoration: none;
+	line-height: 45px; 
+}
+.element {
+	width: 100%;
+	min-height: 300px;
+}
+.okno {
+	width: 100%;
+	height: 400px;
+	background: url(images/okno/ДЗ-11.jpg);
+	margin-bottom: 10px; 
+}
+.img-box {
+	width: 95%;
+	column-count: 4;
+	margin: auto;
+	column-gap: 1px;
+}
+.image {
+	max-width: 100%;
+	display: block;
+	margin-bottom: 1px;
+	opacity: 0;
+	transition: opacity 2s, transform 2s;
+
+
+}
+.main {
+	background: black;
+}
+.image:hover {
+	opacity: 1;
+	box-shadow: 0 0 30px 5px red;
+	transform: scale(1.2) rotate(5deg);
+	z-index: 10;
+}
